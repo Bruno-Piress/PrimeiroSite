@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 448px;
+    background-image: url(../img/Inicio/BgTopo.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#navBotoes {
+    font-size: 20px;
+    width: 50%;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 80px;
+    cursor: pointer;
+}
+
+
+main{
+    height: 103px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}  
+.logo{
+    margin: 100px;
+} 

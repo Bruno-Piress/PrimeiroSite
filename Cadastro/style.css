@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/Bg\ Cadastro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 490px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.Cadastrese {
+    font-family: inter;
+    font-size: 25px;
+    background: linear-gradient(90deg, rgba(255, 229, 2, 1) 45%, rgba(232, 232, 232, 1) 100%);
+    background-clip: 10px;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.containerLog {
+    display: flex;
+    justify-content: center;
+    height: 119px;
+    align-items: center;
+
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 11px;
+    margin-bottom: 3px;
+    display: block;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.btnEmail,
+.btnSenha {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+input[value="Entrar"] {
+    width: 60%;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+input[value="Cadastrar"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btnEntrar {
+    transition: background-color .3s ease-in;
+}
+
+
+.btnEntrar:hover {
+    border-radius: 50px;
+    background-color: #FFE206;
+    color: #000000;
+}
+
+.btnCadastrese {
+    transition: background-color .3s ease-in;
+}
+
+.btnCadastrese:hover {
+    border-radius: 50px;
+    background-color: #FFE206;
+    color: #000000;
+}
+
+.Jatenhoconta {
+    color: #FFE206;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
